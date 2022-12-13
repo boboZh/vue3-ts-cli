@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "bin": {
+    "vue3ts": "./bin/cli.js"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
@@ -13,6 +16,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "commander": "^9.4.1",
     "pinia": "^2.0.28",
     "sass": "^1.56.2",
     "sass-loader": "^13.2.0",
